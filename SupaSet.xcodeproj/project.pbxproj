@@ -119,13 +119,13 @@
 		D900F2852B8DBF450026B29C /* WorkoutPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPickerView.swift; sourceTree = "<group>"; };
 		D900F2882B8E8F530026B29C /* Home+getData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+getData.swift"; sourceTree = "<group>"; };
 		D900F28B2B8E948A0026B29C /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
-		D913C1A82B85630F00C4007F /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D913C1A82B85630F00C4007F /* SupaSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupaSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D913C1AB2B85630F00C4007F /* FinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectApp.swift; sourceTree = "<group>"; };
 		D913C1AF2B85631200C4007F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D913C1B22B85631200C4007F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D913C1B82B85631200C4007F /* FinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D913C1B82B85631200C4007F /* SupaSetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupaSetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D913C1BC2B85631200C4007F /* FinalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectTests.swift; sourceTree = "<group>"; };
-		D913C1C22B85631200C4007F /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D913C1C22B85631200C4007F /* SupaSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupaSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D913C1C62B85631200C4007F /* FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITests.swift; sourceTree = "<group>"; };
 		D913C1C82B85631200C4007F /* FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D913C1D82B85642500C4007F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -256,7 +256,7 @@
 		D913C19F2B85630F00C4007F = {
 			isa = PBXGroup;
 			children = (
-				D913C1AA2B85630F00C4007F /* FinalProject */,
+				D913C1AA2B85630F00C4007F /* SupaSet */,
 				D913C1BB2B85631200C4007F /* FinalProjectTests */,
 				D913C1C52B85631200C4007F /* FinalProjectUITests */,
 				D913C1A92B85630F00C4007F /* Products */,
@@ -266,14 +266,14 @@
 		D913C1A92B85630F00C4007F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D913C1A82B85630F00C4007F /* FinalProject.app */,
-				D913C1B82B85631200C4007F /* FinalProjectTests.xctest */,
-				D913C1C22B85631200C4007F /* FinalProjectUITests.xctest */,
+				D913C1A82B85630F00C4007F /* SupaSet.app */,
+				D913C1B82B85631200C4007F /* SupaSetTests.xctest */,
+				D913C1C22B85631200C4007F /* SupaSetUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D913C1AA2B85630F00C4007F /* FinalProject */ = {
+		D913C1AA2B85630F00C4007F /* SupaSet */ = {
 			isa = PBXGroup;
 			children = (
 				D9C601342BDEF7330003E2B4 /* human.scn */,
@@ -287,7 +287,7 @@
 				D913C1AF2B85631200C4007F /* Assets.xcassets */,
 				D913C1B12B85631200C4007F /* Preview Content */,
 			);
-			path = FinalProject;
+			path = SupaSet;
 			sourceTree = "<group>";
 		};
 		D913C1B12B85631200C4007F /* Preview Content */ = {
@@ -356,7 +356,6 @@
 				D98701B62BD861DE00C0464C /* LaunchScreen */,
 				D98701B32BD85F9600C0464C /* Nutrition */,
 				D9736C972BCCA52100B1EFCC /* Widgets */,
-				D9F2B5842BA35B2C0005DF24 /* Charts */,
 				D95A19692B94C9BE002870E5 /* History */,
 				D9E983AA2B91BB560063E7F3 /* Custom */,
 				D900F28A2B8E94590026B29C /* NavBar */,
@@ -557,19 +556,12 @@
 			path = Activities;
 			sourceTree = "<group>";
 		};
-		D9F2B5842BA35B2C0005DF24 /* Charts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Charts;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D913C1A72B85630F00C4007F /* FinalProject */ = {
+		D913C1A72B85630F00C4007F /* SupaSet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D913C1CC2B85631200C4007F /* Build configuration list for PBXNativeTarget "FinalProject" */;
+			buildConfigurationList = D913C1CC2B85631200C4007F /* Build configuration list for PBXNativeTarget "SupaSet" */;
 			buildPhases = (
 				D913C1A42B85630F00C4007F /* Sources */,
 				D913C1A52B85630F00C4007F /* Frameworks */,
@@ -579,14 +571,14 @@
 			);
 			dependencies = (
 			);
-			name = FinalProject;
+			name = SupaSet;
 			productName = FinalProject;
-			productReference = D913C1A82B85630F00C4007F /* FinalProject.app */;
+			productReference = D913C1A82B85630F00C4007F /* SupaSet.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D913C1B72B85631200C4007F /* FinalProjectTests */ = {
+		D913C1B72B85631200C4007F /* SupaSetTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D913C1CF2B85631200C4007F /* Build configuration list for PBXNativeTarget "FinalProjectTests" */;
+			buildConfigurationList = D913C1CF2B85631200C4007F /* Build configuration list for PBXNativeTarget "SupaSetTests" */;
 			buildPhases = (
 				D913C1B42B85631200C4007F /* Sources */,
 				D913C1B52B85631200C4007F /* Frameworks */,
@@ -597,14 +589,14 @@
 			dependencies = (
 				D913C1BA2B85631200C4007F /* PBXTargetDependency */,
 			);
-			name = FinalProjectTests;
+			name = SupaSetTests;
 			productName = FinalProjectTests;
-			productReference = D913C1B82B85631200C4007F /* FinalProjectTests.xctest */;
+			productReference = D913C1B82B85631200C4007F /* SupaSetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D913C1C12B85631200C4007F /* FinalProjectUITests */ = {
+		D913C1C12B85631200C4007F /* SupaSetUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D913C1D22B85631200C4007F /* Build configuration list for PBXNativeTarget "FinalProjectUITests" */;
+			buildConfigurationList = D913C1D22B85631200C4007F /* Build configuration list for PBXNativeTarget "SupaSetUITests" */;
 			buildPhases = (
 				D913C1BE2B85631200C4007F /* Sources */,
 				D913C1BF2B85631200C4007F /* Frameworks */,
@@ -615,9 +607,9 @@
 			dependencies = (
 				D913C1C42B85631200C4007F /* PBXTargetDependency */,
 			);
-			name = FinalProjectUITests;
+			name = SupaSetUITests;
 			productName = FinalProjectUITests;
-			productReference = D913C1C22B85631200C4007F /* FinalProjectUITests.xctest */;
+			productReference = D913C1C22B85631200C4007F /* SupaSetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -643,7 +635,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D913C1A32B85630F00C4007F /* Build configuration list for PBXProject "FinalProject" */;
+			buildConfigurationList = D913C1A32B85630F00C4007F /* Build configuration list for PBXProject "SupaSet" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -658,9 +650,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D913C1A72B85630F00C4007F /* FinalProject */,
-				D913C1B72B85631200C4007F /* FinalProjectTests */,
-				D913C1C12B85631200C4007F /* FinalProjectUITests */,
+				D913C1A72B85630F00C4007F /* SupaSet */,
+				D913C1B72B85631200C4007F /* SupaSetTests */,
+				D913C1C12B85631200C4007F /* SupaSetUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -804,12 +796,12 @@
 /* Begin PBXTargetDependency section */
 		D913C1BA2B85631200C4007F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D913C1A72B85630F00C4007F /* FinalProject */;
+			target = D913C1A72B85630F00C4007F /* SupaSet */;
 			targetProxy = D913C1B92B85631200C4007F /* PBXContainerItemProxy */;
 		};
 		D913C1C42B85631200C4007F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D913C1A72B85630F00C4007F /* FinalProject */;
+			target = D913C1A72B85630F00C4007F /* SupaSet */;
 			targetProxy = D913C1C32B85631200C4007F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1032,7 +1024,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinalProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupaSet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SupaSet";
 			};
 			name = Debug;
 		};
@@ -1052,7 +1044,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinalProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupaSet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SupaSet";
 			};
 			name = Release;
 		};
@@ -1095,7 +1087,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D913C1A32B85630F00C4007F /* Build configuration list for PBXProject "FinalProject" */ = {
+		D913C1A32B85630F00C4007F /* Build configuration list for PBXProject "SupaSet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D913C1CA2B85631200C4007F /* Debug */,
@@ -1104,7 +1096,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D913C1CC2B85631200C4007F /* Build configuration list for PBXNativeTarget "FinalProject" */ = {
+		D913C1CC2B85631200C4007F /* Build configuration list for PBXNativeTarget "SupaSet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D913C1CD2B85631200C4007F /* Debug */,
@@ -1113,7 +1105,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D913C1CF2B85631200C4007F /* Build configuration list for PBXNativeTarget "FinalProjectTests" */ = {
+		D913C1CF2B85631200C4007F /* Build configuration list for PBXNativeTarget "SupaSetTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D913C1D02B85631200C4007F /* Debug */,
@@ -1122,7 +1114,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D913C1D22B85631200C4007F /* Build configuration list for PBXNativeTarget "FinalProjectUITests" */ = {
+		D913C1D22B85631200C4007F /* Build configuration list for PBXNativeTarget "SupaSetUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D913C1D32B85631200C4007F /* Debug */,
